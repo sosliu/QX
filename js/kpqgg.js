@@ -1081,13 +1081,6 @@ https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/get(Ruled|Preload|PasMultiNot
 ^https?:\/\/weather-map2?\.apple\.com\/(v1|v2)\/mapOverlay\/\w+(\?.*country=CN.*)?$ url script-request-header https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Weather.Map.request.js
 # > 苹果TestFlight App更新时, 提示"APP不可用"问题. 解除区域限制.
 ^https?:\/\/testflight\.apple\.com\/v\d\/accounts\/.+?\/install$ url script-request-body https://gist.githubusercontent.com/NobyDa/9be418b93afc5e9c8a8f4d28ae403cf2/raw/TF_Download.js
-# > 皮皮虾
-^https?://.*\.snssdk\.com/bds/(feed/stream|comment/cell_reply|cell/cell_comment|cell/detail|ward/list|user/favorite|user/cell_coment|user/cell_userfeed|user/publish_list) url script-response-body https://raw.githubusercontent.com/28413761/QX/main/JS/Super.js
-# > 瑞幸咖啡（倒计时还在）
-^https?:\/\/img0[1-9]{1}\.luckincoffeecdn\.com\/group\d/M00/[A-Z0-9]{2}/[A-Z0-9]{2}/[a-zA-Z0-9]{29}\.(jpg|jpeg)_\.webp url reject-200
-# > img0[1-9]{1}\.luckincoffeecdn\.com  img01-img09前缀的域名都匹配 主机名*代替
-# > 百视TV（倒计时还在）
-^https?:\/\/bp-image\.bestv\.com\.cn\/[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{25}\.jpg url reject-200
 # > 得物
 ^https?:\/\/cdn\.poizon\.com\/node-common\/.*.jpg url reject-200
 # > 本来生活
@@ -1140,12 +1133,6 @@ https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/get(Ruled|Preload|PasMultiNot
 ^https?+:\/\/xyz\.cnki\.net\/resourcev7\/api\/manualpush\/SlidsList$ url reject-200
 # > 叮嗒出行
 ^https?:\/\/img\.admobile\.top\/admobile-adRequest\/.*.(jpg|png) url reject-200
-# > 酷安去首页广告、信息流广告、评论广告
-^https?:\/\/api.coolapk.com\/v6\/(feed\/(replyList|detail)|main\/indexV8|dataList) url script-response-body https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/coolapk.js
-# > 大智慧
-^https?://ssp\.dzh\.com\.cn/v2api/adgroupjson url reject
-# > 冠寓开屏广告@ddgksf2013
-^https?:\/\/guanyu\.longfor\.com\/app-server\/api\/v1\/main\/start url reject
 # > 黄油相机
 ^https?:\/\/api4\.bybutter\.com\/v\d\/app\/placements\/\d\/advertisements url reject
 # > 一刻相册
