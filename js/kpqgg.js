@@ -1018,8 +1018,6 @@ https://new-app-api.ylyk.com/v1/user/myinfo/adviser url reject
 ^https?:\/\/api\.yikaobang\.com\.cn\/index\.php\/Client\/main\/startPage url reject
 # > 虎嗅
 ^https:\/\/api-ad-product\.huxiu\.com\/Api\/Product\/SDK\/Advert\/Query\/queryAdvertListInfo url reject
-# > vgTime
-^http:\/\/app02\.vgtime\.com:8080\/vgtime-app\/api\/v2\/init\/ad\.json url script-response-body https://raw.githubusercontent.com/28413761/QX/main/JS/vgtime.js
 # > 滴滴出行（推荐英文版）
 https?://res\.xiaojukeji\.com\/resapi\/activity\/mget url reject-dict
 https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/get(Ruled|Preload|PasMultiNotices) url reject
