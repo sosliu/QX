@@ -646,28 +646,7 @@ https://api.rr.tv/storage/business/rootName/app/homePage\?dataType=JSON url reje
 # > 微博自定义tab皮肤
 ^https://api.weibo.cn/2/!/client/light_skin url script-response-body https://raw.githubusercontent.com/zmqcherish/proxy-script/main/weibo_main.js
 # > 微博非会员设置tab皮肤
-^https://new.vip.weibo.cn/littleskin/preview url script-response-body https://raw.githubusercontent.com/zmqcherish/proxy-script/main/weibo_main.js
-# > 微博轻享版（原国际版）去广告
-# > 微博国际版_sdkad
-^https?:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/sdkad\.php  url reject
-# > 微博国际版_推荐tab|热门tab去广告
-^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/statuses\/unread_hot_timeline url script-response-body https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/weibo_json.js
-# > 微博国际版_关注tab去广告 
-^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/statuses\/friends_timeline url script-response-body https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/weibo_json.js
-# > 微博国际版_趋势tab 
-^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/cardlist url script-response-body https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/weibo_json.js
-# > 微博国际版_屏蔽search_suggest 
-^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/page\/get_search_suggest url reject-dict
-# > 微博国际版_趋势tab去广告 
-^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*feed&a=trends url script-response-body https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/weibo_json.js
-# > 微博国际版_屏蔽searching_info 
-^ttps?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*user&a=get_searching_info url reject
-# > 微博国际版_屏蔽search_topic 
-^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*feed&a=search_topic url reject
-# > 微博国际版_屏蔽开屏广告 
-^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*ads url reject
-# > 新浪新闻
-^https?+:\/\/edit\.sinaapp\.com\/ua\?t=adv url reject-200
+^https://new.vip.weibo.cn/littleskin/preview url script-response-body https://raw.githubusercontent.com/zmqcherish/proxy-script/main/
 # > 国家地理杂志
 ^https?:\/\/dili\.bdatu\.com\/jiekou\/ad\/ url reject
 # > 国家地理
