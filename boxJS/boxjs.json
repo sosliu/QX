@@ -1,9 +1,9 @@
 {
     "id": "sosliu.app.sub",
-    "name": "yuheng 脚本订阅",
-    "author": "@yuheng",
-    "icon": "https://avatars.githubusercontent.com/u/50571734?s=460&u=808616a26243d457cae2e41ffa728895e1e5ed4b&v=4",
-    "repo": "https://github.com/Yuheng0101/X",
+    "name": "sosliu",
+    "author": "@sosliu",
+    "icon": "https://github.com/sosliu/QX/blob/main/boxJS/star.png",
+    "repo": "https://github.com/sosliu/QX",
     "apps": [
         {
             "id": "yuheng.mi.step",
