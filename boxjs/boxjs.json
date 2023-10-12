@@ -3,7 +3,7 @@
             "id": "sosliu.imaotai",
             "name": "i茅台预约",
             "descs_html": [
-                "<a target='_blank' href='https://github.com/sosliu/QX/edit/main/boxJS'>README.md</a>"
+                "<a target='_blank' href='https://github.com/sosliu/QX/edit/main/boxjs'>README.md</a>"
             ],
             "keys": [
                 "imaotai__config__istravel",
@@ -77,7 +77,7 @@
                 "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/ae/f4/18/aef41811-955e-e6b0-5d23-6763c2eef1ab/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/144x144.png",
                 "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/ae/f4/18/aef41811-955e-e6b0-5d23-6763c2eef1ab/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/144x144.png"
             ],
-            "script": "https://github.com/sosliu/QX/blob/main/boxJS/imaotai.js"
+            "script": "https://github.com/sosliu/QX/blob/main/boxjs/imaotai.js"
         }
     ]
 }
