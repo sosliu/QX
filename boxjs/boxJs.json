@@ -18,9 +18,9 @@
         "imaotai__config__shopid"
       ],
       "id": "yuheng.imaotai",
-      "script": "https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/imaotai/imaotai.js",
+      "script": "https://raw.githubusercontent.com/sosliu/QX/main/boxjs/imaotai.js",
       "descs_html": [
-        "<a target='_blank' href='https://github.com/Yuheng0101/X/tree/main/Tasks/imaotai'>README.md</a>"
+        "<a target='_blank' href='https://github.com/sosliu/QX/edit/main/boxjs'>README.md</a>"
       ],
       "settings": [
         {
