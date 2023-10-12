@@ -66,6 +66,16 @@
                     "rows": 1,
                     "desc": "默认选择最近店铺"
                 }
-            ]
+            ],
+            "author": "@yuheng",
+            "repo": "https://github.com/Yuheng0101/X",
+            "icons": [
+                "https://raw.githubusercontent.com/xiaomaoJT/QxScript/main/rewrite/boxJS/icon/spotify.png",
+        "https://raw.githubusercontent.com/xiaomaoJT/QxScript/main/rewrite/boxJS/icon/spotify.png"
+            ],
+            "script": "https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/imaotai/imaotai.js"
+        }
+    ]
+}
 
         
