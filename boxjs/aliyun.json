@@ -1,8 +1,8 @@
 {
-  "id": "aliyun.sub",
-  "name": "阿里云签到脚本订阅",
-  "author": "@Sliverkiss",
-  "icon": "https://raw.githubusercontent.com/Sliverkiss/GoodNight/master/icon/sliverkiss.png",
+  "id": "sosliu.app.sub",
+  "author": "@sosliu",
+  "icon": "https://avatars.githubusercontent.com/u/50571734?s=460&u=808616a26243d457cae2e41ffa728895e1e5ed4b&v=4",
+  "name": "sosliu 脚本订阅",
   "repo": "",
   "apps": [
     {
