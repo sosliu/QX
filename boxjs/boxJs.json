@@ -84,6 +84,42 @@
         "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/ae/f4/18/aef41811-955e-e6b0-5d23-6763c2eef1ab/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/144x144.png",
         "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/ae/f4/18/aef41811-955e-e6b0-5d23-6763c2eef1ab/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/144x144.png"
       ]
+    },
+    {
+      "id": "sliverkiss_aDriveCheckIn",
+      "name": "阿里云盘自动签到",
+      “作者”：“@Sliverkiss”，
+      “回购”：“”，
+      “图标”：[
+        “https://raw.githubusercontent.com/sliverkiss/QuantumultX/main/icon/aliyun.png”，
+        “https://raw.githubusercontent.com/sliverkiss/QuantumultX/main/icon/aliyun.png”
+      ],
+      “钥匙”：[
+        “阿里云数据”,
+        "阿里云_奖励",
+        “阿里云_日期”
+      ],
+      “设置”： [
+        {
+          "id": "aliyun_data",
+          "name": "阿里云ck数据",
+          “值”：空，
+          “类型”：“文本区域”，
+          "desc": "阿里云盘ck数据"
+        },{
+          "id": "aliyun_reward",
+          "name": "开启自动领取奖励",
+          “val”：正确，
+          “类型”：“布尔值”，
+          "desc": "默认开启"
+        },{
+          "id": "aliyun_date",
+          "name": "垃圾回收期限",
+          “值”：“”，
+          “类型”：“文本”，
+          "desc": "默认开启"
+        }
+      ]
     }
   ]
 }
